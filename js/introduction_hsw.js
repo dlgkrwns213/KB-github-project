@@ -23,4 +23,14 @@ onload = () => {
   goal_information.addEventListener('mouseleave', function () {
     goal_information.classList.remove('animate');
   });
+  // 마우스를 클릭하면 다른 페이지로 이동합니다.
+  general_information.addEventListener('click', function () {
+    window.location.href = 'general_information_hsw.html';
+  });
+  language_information.addEventListener('click', function () {
+    window.location.href = 'general_information_hsw.html';
+  });
+  goal_information.addEventListener('click', function () {
+    window.location.href = 'general_information_hsw.html';
+  });
 };
