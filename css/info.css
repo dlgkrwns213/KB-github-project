@@ -80,8 +80,14 @@ p {
   opacity: 1;
 }
 
-/* 사는 곳 스타일 */
 .location {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.job {
   font-size: 16px;
   color: #333;
   font-weight: bold;
