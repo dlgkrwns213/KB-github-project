@@ -1,0 +1,49 @@
+h1 {
+  font-size: xx-large;
+}
+
+section {
+  margin: 8rem;
+  position: relative;
+}
+
+.main {
+  height: 20rem;
+  text-align: center;
+}
+
+.main_left {
+  float: left; /* 왼쪽 배치 */
+  width: 50%; /* 절반 차지 */
+  overflow: hidden;
+  text-align: center;
+}
+
+.main_left>img {
+  max-width: 100%; /* 이미지가 div를 넘지 않도록 */
+  height: auto;
+}
+
+.main_right {
+  float: right; /* 오른쪽 배치 */
+  width: 50%; /* 절반 차지 */
+}
+
+.main_transverse > h3, .main_transverse > p {
+  display: inline-block;
+  margin-right: 1rem; /* 두 요소 사이 간격 */
+}
+
+.sub {
+  display: flex; /* 가로 정렬 */
+  justify-content: space-between; /* 요소 간 균등한 간격 */
+  gap: 1rem; /* 모든 요소 사이 동일한 간격 */
+}
+
+.vertical {
+  background-color: lightgray; /* 확인용 배경색 */
+  padding: 1rem;
+  flex: 1; /* 모든 요소가 같은 크기 유지 */
+  text-align: center;
+}
+
