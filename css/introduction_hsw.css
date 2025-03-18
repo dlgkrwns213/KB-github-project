@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(234, 238, 12, 0.3);
+}
+
+.information_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.box {
+  width: 30%;
+  height: 100px;
+  background-color: burlywood;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* 애니메이션을 위한 css코드 */
+.animate {
+  transform: scale(1.2);
+  background-color: rgb(218, 214, 7);
+}
+
+#first_phrase {
+  width: 60%;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: blanchedalmond;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+#second_phrase {
+  width: 60%;
+  text-align: center;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0 0 10px 10px;
+}
+
+#general #language #goal {
+  padding: 20px;
+}
