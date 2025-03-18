@@ -23,20 +23,6 @@ body {
   text-align: center;
 }
 
-/* 프로필 이미지 .profile_img {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.profile_img img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-color: #8a2be2;
-  padding: 10px;
-} */
-
 h1 {
   font-size: 24px;
   font-weight: bold;
@@ -93,3 +79,4 @@ p {
   font-weight: bold;
   margin-top: 5px;
 }
+body { background-color: lightgray; }
